@@ -8,7 +8,6 @@ app.get('/home', (req, res) => {
   console.log('Consegui!!')
 });
 
-
 app.listen(port,() =>{
   console.log(`Estou na porta ${port}`)
 });
