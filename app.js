@@ -13,4 +13,8 @@ app.listen(port,() =>{
   console.log(`Estou na porta ${port}`)
 });
 
-console.log('Midukan')
+
+app.get('/contatos', (req, res) => {
+  res.send('Bem-vindo')
+  console.log('Consegui!!')
+});
