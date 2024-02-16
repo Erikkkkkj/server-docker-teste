@@ -12,6 +12,7 @@ app.listen(port,() =>{
   console.log(`Estou na porta ${port}`)
 });
 
+console.log('tanto faz')
 
 app.get('/contatos', (req, res) => {
   res.send('Bem-vindo')
