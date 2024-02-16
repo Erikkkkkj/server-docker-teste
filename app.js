@@ -12,3 +12,5 @@ app.get('/home', (req, res) => {
 app.listen(port,() =>{
   console.log(`Estou na porta ${port}`)
 });
+
+console.log('Midukan')
